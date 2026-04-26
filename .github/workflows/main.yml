@@ -1,0 +1,13 @@
+name: 8600G Universal Compute
+
+on: [push]
+
+jobs:
+  execute:
+    runs-on: self-hosted  # 8600G 러너 지목
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run Lab Script
+        run: |
+          /home/github-runner/miniforge3/envs/lab/bin/python main.py
