@@ -41,9 +41,6 @@ conda activate lab
 ```
 
 ### Actions workflow 연동
-```
-
-```
 ``` YAML
 name: 8600G Universal Compute
 
